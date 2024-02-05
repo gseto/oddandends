@@ -16,6 +16,10 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
+#protrait {
+  opacity: 1;
+}
+
 img{
 	max-width: 100%;
   
