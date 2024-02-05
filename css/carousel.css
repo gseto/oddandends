@@ -11,11 +11,6 @@
   flex-grow: 0;
 }
 
-.navbar-collpased {
-  background:rgba(0, 0, 0, 0.8);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-}
-
 #protrait {
   opacity: 1;
 }
