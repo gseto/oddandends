@@ -2,13 +2,18 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-.navbar {
+.navbar-scrolled {
   background:rgba(0, 0, 0, 0.8);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
 .navbar-collapse {
   flex-grow: 0;
+}
+
+.navbar-collpased {
+  background:rgba(0, 0, 0, 0.8);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
 img{

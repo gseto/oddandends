@@ -1,4 +1,5 @@
 const nav = document.querySelector('.navbar');
+const collaspebar = document.querySelector('#navbarCollapse');
 window.addEventListener('scroll', () => {
   if(window.scrollY >= 56) {
     nav.classList.add('navbar-scrolled')
@@ -6,6 +7,12 @@ window.addEventListener('scroll', () => {
     nav.classList.remove('navbar-scrolled')
   }
 })
-window.addEventListener('collaspe', () => {
+
+collaspebar.addEventListener('hidden.bs.collapse', function () {
+  if(window.scrollY < 56) {
+    nav.classList.remove('navbar-scrolled')
+  }
+});
+collaspebar.addEventListener('shown.bs.collapse', function () {
   nav.classList.add('navbar-scrolled')
-})
+});
